@@ -1,0 +1,71 @@
+h1{
+   
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+button {
+    margin: 0 auto;
+    margin-bottom: 25px;
+   
+    display:block;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    font-size: 39px;
+    width: 5px auto;
+    transition: all 0.5s;
+}
+
+button:hover{
+    transition: all 0.5s;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 41px;
+    font-weight: bold;
+    opacity: 80%;
+    border: 6px double darkred;
+}
+
+#real-alert{
+    background-color: red;
+    text-decoration: none;
+}
+
+#test-only{
+    left: -10px;
+    background-color: green;
+    text-decoration: none;
+}
+
+#divbox{
+    top: 30px;
+    align-content: center;
+    background-image: linear-gradient(rgb(0, 136, 255), rgba(212, 255, 0, 0.842));
+    position: center;
+    width: 50%;
+    height: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    font-style: oblique;
+    font-style: bold;
+    font-size: 16px;   
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    
+    margin-left: 40%;
+  }

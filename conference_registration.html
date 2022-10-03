@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>conference registration</title>
+</head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<body>
+    
+    <div class="jumbotron">
+    <h1>Welcome to the tech conference registration page</h1>
+</div>
+<div id="divbox">
+    <form>
+    <h2>conference registration Form</h2>
+
+    <label id="FName" > First Name </label><input id="FName" class="form-control" type="text" maxlength="35" required><br>
+    <label id="LName" > Last Name </label><input id="LName" class="form-control" type="text"  maxlength="35" required><br>
+    <label id="Password" > Password </label><input id="Password" class="form-control" type="password"  maxlength="35" required><br>
+    <lable id="Email-1" class="intype"> Email </lable><input id="Email-1" class="form-control" type="email" name="Email" required><br>
+    
+    <p class="form-text">T-shirt size</p>
+    <div class="form-check">
+        
+        <select  class="form-check-select" name="t-shirt" id="size" required>
+            <option value="Large">Large</option>
+            <option value="Medium">Medium</option>
+            <option value="Small">Small</option>
+          </select>
+        </div><br>
+
+        <p class="form-text">Date of birth</p>
+        <div class="form-check">
+        <input class="form-check-date" name="Question3" type="Date" required>
+        </div><br>
+
+        <p class="form-text">Would you like to recieve email updates?</p>
+        <div class="form-check">
+        <input class="form-check-input" name="Question2" id="yes" type="radio" checked>
+        <lable for="yes" class="form-check-label">Yes</lable>
+        </div>
+        <div class="form-check">
+        <input class="form-check-input" name="Question2" id="no" type="radio">
+        <lable for="no" class="form-check-label">No</lable>
+        </div><br>
+        <p class="form-text">Are you attending morning ot afternoon?</p>
+        <div class="form-check">
+        <input class="form-check-checkbox" name="Question4" id="morning" type="checkbox">
+        <lable for="yes" class="form-check-label">Morning</lable>
+        </div>
+        <div class="form-check">
+        <input class="form-check-checkbox" name="Question4" id="afternoon" type="checkbox">
+        <lable for="no" class="form-check-label">Afternoon</lable>
+        </div><br>
+    <label id="Comment-1" class="intype"> Special Requests </label>
+    <textarea class="form-control" id="Comment-1" row="7" cols="70" placeholder="Please enter your special requests here" ></textarea>
+    <br>
+    <input type="submit">
+</form></div>
+
+</body>
+</html>
